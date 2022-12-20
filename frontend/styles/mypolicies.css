@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+table,
+td,
+th {
+  border: 1px solid;
+}
+
+th,
+td {
+  padding: 10px;
+}
+
+table {
+  width: 100%;
+  max-width: 800px;
+  border-collapse: collapse;
+  margin: 0 auto;
+}

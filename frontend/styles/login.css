@@ -1,0 +1,57 @@
+
+
+.container {
+  text-align: center;
+  padding: 1rem;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.container > div {
+  margin: 1rem 0;
+  text-align: start;
+}
+
+.error {
+  color: red;
+  background-color: rgba(231, 186, 186, 0.628);
+  padding: 0.5rem;
+  display: none;
+}
+
+.button {
+  background-color: #0e95eb;
+  color: white;
+  border: none;
+  height: 36px;
+  font-weight: 500;
+}
+
+.button:hover {
+  background-color: #0d8bd9;
+  cursor: pointer;
+}
+
+.success_container {
+  text-align: center;
+  padding: 1rem;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.success_container > h2 {
+  margin: 1rem 0;
+  color: #1a9c5d;
+}
+
+.success_container > p {
+  margin: 1rem 0;
+}
+
+input {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  height: 36px;
+}

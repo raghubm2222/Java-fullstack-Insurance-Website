@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  text-align: center;
+  padding: 1rem;
+}
+
+.logout_button {
+  background: none;
+  border: none;
+  padding: 1rem;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+  color: #42a5f5;
+}
+
+.logout_button:hover {
+  color: blue;
+}
+
+.navbar {
+  margin: 1rem;
+}
+
+a {
+  text-decoration: none;
+  padding: 1rem;
+  color: #42a5f5;
+}
+
+a:hover {
+  color: blue;
+}
+
+.success {
+  color: #66bb6a;
+  margin: 1rem 0;
+}
+.success2 {
+  margin: 1rem 0 3rem 0;
+}
+
+
+
+#userinfo > p {
+  margin: 4px 0;
+}

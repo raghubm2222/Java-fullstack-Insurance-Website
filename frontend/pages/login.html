@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="../images/logo.png" />
+    <title>ILP | Login</title>
+    <link rel="stylesheet" href="../styles/main.css" />
+    <link rel="stylesheet" href="../styles/login.css" />
+    <script src="../src/login.js" defer></script>
+  </head>
+  <body>
+    <form id="loginForm" class="container">
+      <h1>Login</h1>
+      <div class="error" id="error"></div>
+      <div>
+        <label for="email">Email:</label><br />
+        <input type="email" id="email" name="email" required/><br />
+      </div>
+      <div>
+        <label for="password">Password:</label><br />
+        <input type="password" id="password" name="password" required /><br /><br />
+      </div>
+      <div>
+        <input class="button" type="submit" value="Login" />
+      </div>
+      <p>Don't have an account? <a href="./register.html">Register</a></p>
+    </form>
+  </body>
+</html>
