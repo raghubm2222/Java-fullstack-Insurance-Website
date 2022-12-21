@@ -18,7 +18,7 @@ public class UsersService {
     public void addUser(User user) throws Exception {
         User user2 = getUserbyEmail(user.getEmail());
         if (user2 != null) {
-            throw new Exception("User already exists");
+            throw new Exception("Email is already registered");
         }
         users.add(user);
     }
@@ -42,7 +42,7 @@ public class UsersService {
     public User login(String email, String password) throws Exception {
         User user = getUserbyEmail(email);
         if (user == null) {
-            throw new Exception("User not found");
+            throw new Exception("Email not registered with us");
         }
         if (!user.getPassword().equals(password)) {
             throw new Exception("Invalid password");

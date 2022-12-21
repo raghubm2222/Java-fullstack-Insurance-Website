@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ILP | Register</title>
+    <link rel="icon" href="../images/logo.png" />
+    <link rel="stylesheet" href="../styles/main.css" />
+    <link rel="stylesheet" href="../styles/login.css" />
+    <script src="../src/register.js" defer></script>
+  </head>
+  <body>
+    <form id="registerForm" class="container">
+      <h1>Register</h1>
+      <div class="error" id="error"></div>
+      <div>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" />
+        <small class="error" id="nameerror"></small>
+      </div>
+      <div>
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email" />
+        <small class="error" id="emailerror"></small>
+      </div>
+      <div>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" />
+        <small class="error" id="passworderror"></small>
+      </div>
+      <div>
+        <label for="address">Address:</label>
+        <input type="text" id="address" name="address" />
+        <small class="error" id="addresserror"></small>
+      </div>
+      <div>
+        <label for="nomineename">Nominee Name:</label>
+        <input type="text" id="nominee" name="nominee" />
+        <small class="error" id="nomineeerror"></small>
+      </div>
+      <div>
+        <label for="relationship">Relationship:</label>
+        <select id="relationship" name="relationship">
+          <option value="">Select relationship with nominee</option>
+          <option value="Spouse">Spouse</option>
+          <option value="Father">Father</option>
+          <option value="Mother">Mother</option>
+          <option value="Brother">Brother</option>
+          <option value="Sister">Sister</option>
+          <option value="Son">Son</option>
+          <option value="Daughter">Daughter</option>
+        </select>
+        <small class="error" id="relationshiperror"></small>
+      </div>
+      <div>
+        <label for="phone">Contact Number:</label>
+        <input
+          type="tel"
+          id="phone"
+          name="phone"
+          maxlength="10"
+          minlength="10"
+        />
+        <small class="error" id="phoneerror"></small>
+      </div>
+      <div>
+        <input class="button" type="submit" value="Register" />
+      </div>
+      <p>Already have an account? <a href="./login.html">Login</a></p>
+    </form>
+  </body>
+</html>

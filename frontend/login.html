@@ -13,14 +13,15 @@
   <body>
     <form id="loginForm" class="container">
       <h1>Login</h1>
-      <div class="error" id="error"></div>
       <div>
         <label for="email">Email:</label><br />
-        <input type="email" id="email" name="email" required/><br />
+        <input type="email" id="email" name="email" autofocus />
+        <small class="error" id="emailerror"></small>
       </div>
       <div>
         <label for="password">Password:</label><br />
-        <input type="password" id="password" name="password" required /><br /><br />
+        <input type="password" id="password" name="password" />
+        <small class="error" id="passworderror"></small>
       </div>
       <div>
         <input class="button" type="submit" value="Login" />

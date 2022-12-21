@@ -9,6 +9,6 @@ const userJson = JSON.parse(user);
 
 const userinfo = document.getElementById("userinfo");
 
-userinfo.innerHTML = `<h3>User Details</h3><p>Name : <strong>${userJson.name}</strong></p> <p>Email : <strong>${userJson.email}</strong></p> <p>Phone : <strong>${userJson.phone}</strong> </p>`;
+userinfo.innerHTML = `<h3>User Details</h3><p>Customer Id : <strong>${userJson.id}</strong> </p><p>Name : <strong>${userJson.name}</strong></p> <p>Email : <strong>${userJson.email}</strong></p> `;
 
 localStorage.removeItem("tempuser");

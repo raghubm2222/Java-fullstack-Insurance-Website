@@ -11,7 +11,7 @@ public class AppController {
 
     @GetMapping("/")
     public ResponseEntity<String> home() {
-        return ResponseEntity.ok("Welcome to the Insurence Policy API");
+        return ResponseEntity.ok("Welcome to the Insurance Policy API");
     }
 
 }
