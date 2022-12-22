@@ -59,7 +59,7 @@ public class PolicyController {
     public ResponseEntity<Object> addPolicy(@RequestParam String customerid, @RequestParam String masterpolicyid) {
         Map<String, String> response = new HashMap<>();
         try {
-            User user = usersService.getUserbyId(customerid);
+            User user = usersService.getUserById(customerid);
             if (user == null) {
                 response.put("message", "User not found");
                 return ResponseEntity.badRequest().body(response);

@@ -66,6 +66,7 @@ function validatePassword(password) {
   return null;
 }
 
+
 function clearErrors() {
   emailErrorTag.innerHTML = "";
   passwordErrorTag.innerHTML = "";
