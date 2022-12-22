@@ -2,13 +2,13 @@ package com.ilp.casestudy.models;
 
 public class MasterPolicy {
 
-    private String id;
+    private int id;
     private String name;
     private double sumAssured;
     private double premium;
     private int tenure;
 
-    public MasterPolicy(String id, String name, double sumAssured, double premium, int tenure) {
+    public MasterPolicy(int id, String name, double sumAssured, double premium, int tenure) {
         this.id = id;
         this.name = name;
         this.sumAssured = sumAssured;
@@ -16,7 +16,7 @@ public class MasterPolicy {
         this.tenure = tenure;
     }
 
-    public String getId() {
+    public int getId() {
         return id;
     }
 
